@@ -12,6 +12,18 @@ header{
     margin:auto
     
 }
+
+ul > li > a:hover{
+    background-color: #EDEDED;
+    cursor: pointer;
+}
+.r_menu > li:hover ul{
+    display: block; /* Show */
+}
+.r_submenu{
+    width: 100px;
+    display: none; /* Hide */
+}
 main{
     height: 3119px;
     
