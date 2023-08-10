@@ -8,6 +8,7 @@
         <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
@@ -19,17 +20,36 @@
                             <img class="img-fluid mt-2" src="./img/logo.svg" alt="">
                         </a>
                     </div>
-                    <div class="col-8 col-sm-1 r_tbdr">
-                        2
+                    <div class="col-8 col-sm-2 r_tbdr">
+                        <div class="d-block d-sm-none">
+
+                            <ul class="nav float-end mt-2 r_tnr">
+                                <li class="nav-item">
+                                  <a class="nav-link active bg-primary text-white rounded-pill pt-1 pb-1" aria-current="page" href="#">Open App</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link mt-1 pt-0 pb-0" href="#">
+                                    <i class="fa-solid fa-bell text-dark"></i>
+                                  </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link mt-1 pt-0 pb-0" href="#">
+                                    <i class="fa-solid fa-bars text-dark"></i>
+                                  </a>
+                                </li>
+                              </ul>
+                        </div>
                     </div>
                     <div class="col-12 col-sm-8 pt-2 ps-3 pe-3">                        
-                        <form class="d-sm-none d-md-none border mb-2 pt-0 pb-0 border-dark rounded p-1">
+                        <form class="d-sm-none d-md-none border mb-2 pt-0 pb-0 border-dark-subtle rounded p-1">
                             <div class="row">
-                                <div class="col-2 p-0">
-                                    <img class="btn h-100" src="./img/srch.svg" />
+                                <div class="col-1 p-0">
+                                    <button class="btn ms-1">
+                                        <i class="fa-solid fa-magnifying-glass text-body-tertiary"></i>
+                                    </button>
                                 </div>
-                                <div class="col-8 p-0">
-                                    <input type="search" class="form-control border border-0" id="exampleInputPassword1">
+                                <div class="col-9 p-0">
+                                    <input type="search" placeholder="Packers and movers" class="form-control shadow-none border border-0" id="exampleInputPassword1">
                                 </div>
                                 <div class="col-2 p-0">
                                     <button type="submit" class="btn float-end">
@@ -37,51 +57,158 @@
                                     </button>
                                 </div>
                             </div>
-                          </form>
-                        <ul class="d-none d-sm-block nav mt-3 ms-4 r_menu ">
-                            <li class="nav-item">
-                                <a class="ps-2 pt-1 pb-1 pe-2 nav-link active" aria-current="page" href="#">
-                                    <img class="me-1" src="./img/nav_language_icon.svg" />English
-                                    <img src="./img/down_arrow5.svg" />
-                                </a>
-                                <ul class="nav flex-column r_submenu bg-white list-unstyled border position-absolute">
-                                    <li>
-                                        <a href="#" class="nav-link text-secondary-emphasis active">Hindi</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="nav-link text-secondary-emphasis">Marathi</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="nav-link text-secondary-emphasis">Bengali</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="nav-link text-secondary-emphasis">Gujrati</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" href="#">We are Hiring</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" href="#">Investor Relations</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" aria-disabled="true"><img class="me-1" src="./img/nav_advertise_icon.svg" />Advertise</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" aria-disabled="true"><img class="me-1" src="./img/nav_listing_icon.svg" />Free Listing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" aria-disabled="true"><img src="./img/notify_icon.svg" /></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" aria-disabled="true"><img src="./img/jd_login_icon.svg" />Login / Sign Up</a>
-                            </li>
-                        </ul>
+                        </form>
+                        <div class="d-none d-sm-block r_tbdr">
+
+                            <ul class=" nav mt-3 ms-3 r_menu ">
+                                <li class="nav-item">
+                                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link active" aria-current="page" href="#">
+                                        <img class="me-1" src="./img/nav_language_icon.svg" />English
+                                        <img src="./img/down_arrow5.svg" />
+                                    </a>
+                                    <ul class="nav flex-column r_submenu bg-white list-unstyled border position-absolute">
+                                        <li>
+                                            <a href="#" class="nav-link text-secondary-emphasis active">Hindi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link text-secondary-emphasis">Marathi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link text-secondary-emphasis">Bengali</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link text-secondary-emphasis">Gujrati</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" href="#">We are Hiring</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" href="#">Investor Relations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" aria-disabled="true"><img class="me-1" src="./img/nav_advertise_icon.svg" />Advertise</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" aria-disabled="true"><img class="me-1" src="./img/nav_listing_icon.svg" />Free Listing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" aria-disabled="true"><img src="./img/notify_icon.svg" /></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-2 pt-1 pb-1 pe-2 nav-link text-secondary-emphasis" aria-disabled="true"><img src="./img/jd_login_icon.svg" />Login/Sign-Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
                     </div>
                 </div>
             </header>
-            <main class="mt-5 r_mt-5 r_tbdr bg-success">Main</main>
+            <main class="mt-5 r_mt-5 r_tbdr bg-white">
+                <div class="r_m1 d-block d-sm-none">
+                    <div class="row m-0">
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr p-0 d-flex justify-content-center">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/1.svg">
+                            Shop Online
+                            </a>
+
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/2.gif">
+                            B2B
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/3.svg">
+                            Doctors
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/4.svg">
+                            Travel
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/5.svg">
+                            Beauty
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/6.svg">
+                            Consultants
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/7.svg">
+                            Packers & Movers
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/8.svg">
+                            Wedding Requisities
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img class="img-fluid" src="./img/9.gif">
+                            Home Services
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/10.svg">
+                            Jobs
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/11.svg">
+                            Repairs & Services
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/12.svg">
+                            PG/Hostel
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/13.svg">
+                            Loans
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/14.svg">
+                            Real Estate
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/15.svg">
+                            Education
+                            </a>
+                        </div>
+                        <div class="col-3 d-flex align-items-center p-0 r_tbdr">
+                            <a href="#" class=" btn btn-sm text-center">
+                                <img src="./img/16.svg">
+                            Show More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="r_m2">m2</div>
+            </main>
             <footer class="r_tbdr bg-warning">
                 <div class="r_footer1 border-top border-bottom">F1</div>
                 <div class="r_footer2">F2</div>

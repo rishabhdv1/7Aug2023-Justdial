@@ -3,7 +3,7 @@ body{
 }
 .r_tbdr{
     border: 1px dashed red;
-
+    
 }
 
 header{
@@ -48,11 +48,61 @@ footer{
     height: 98px;
 }
 
+.r_tnr{
+    font-family: 'Times New Roman', Times, serif;
+}
 
+
+::-webkit-input-placeholder {
+    font-size: 25px;
+    font-weight:bold;
+    color:#333 !important;
+    opacity:0.5 !important;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+       font-size: 25px;
+       font-weight:bold;
+       color:#333 !important;
+       opacity:0.5 !important;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+       font-size: 25px;
+       font-weight:bold;
+       color:#333 !important;
+       opacity:0.5 !important;
+ }
+ 
+ /* Overriding styles */
+ 
+ ::-webkit-input-placeholder {
+    font-size: 15px!important;
+    font-weight:bold;
+    color:#333 !important;
+    opacity:0.5 !important;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+       font-size: 15px!important;
+       font-weight:bold;
+       color:#333 !important;
+       opacity:0.5 !important;
+ }
+ ::-moz-placeholder {  /* Firefox 19+ */
+       font-size: 15px!important;
+       font-weight:bold;
+       color:#333 !important;
+       opacity:0.5 !important;
+ }
 
 @media screen and (max-width:576px){
     .r_form_col{
         height: 50px;
+    }
+    .r_mt-5{
+        margin-top: 400px !important;
+        padding-top: 40px;
     }
     
 }
