@@ -104,6 +104,12 @@ footer{
         margin-top: 400px !important;
         padding-top: 40px;
     }
+    footer{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+    }
     
 }
 
