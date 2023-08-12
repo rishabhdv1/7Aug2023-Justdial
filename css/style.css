@@ -1,6 +1,7 @@
 body{
     background-color: #E8E8E8;
 }
+
 .r_tbdr{
     border: 1px dashed red;
     
@@ -95,6 +96,8 @@ footer{
        color:#333 !important;
        opacity:0.5 !important;
  }
+
+
 
 @media screen and (max-width:576px){
     .r_form_col{
