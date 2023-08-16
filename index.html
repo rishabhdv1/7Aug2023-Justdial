@@ -113,7 +113,7 @@
             </div>
         </div>
         <div class="container bg-white r_cont r_tbdr">
-            <header class="border-bottom fixed-top r_tbdr ">
+            <header class="border-bottom position-sticky top-0 r_tbdr bg-white">
                 <div class="row m-0 h-100">
                     <div class="col-4 col-sm-2 r_form_col p-0 r_tbdr">
                         <a href="#" class="d-flex align-items-center d-block h-100">
@@ -168,16 +168,22 @@
                                     </a>
                                     <ul class="nav flex-column r_submenu bg-white list-unstyled border position-absolute">
                                         <li>
-                                            <a href="#" class="nav-link text-secondary-emphasis active">Hindi</a>
+                                            <a href="#" class="nav-link text-secondary-emphasis active">हिंदी</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="nav-link text-secondary-emphasis">Marathi</a>
+                                            <a href="#" class="nav-link text-secondary-emphasis">मराठी</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="nav-link text-secondary-emphasis">Bengali</a>
+                                            <a href="#" class="nav-link text-secondary-emphasis">বেঙ্গলি</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="nav-link text-secondary-emphasis">Gujrati</a>
+                                            <a href="#" class="nav-link text-secondary-emphasis">ગુજરાતી</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link text-secondary-emphasis">ಕನ್ನಡ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link text-secondary-emphasis">தமிழ்</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -471,10 +477,16 @@
                     </div>
                     
                 </div>
-                <div class="m11 d-none d-sm-block">
+
+                <div class="r_m11 d-none d-sm-block">
                     <div class="row m-0 h-100">
                         <div class="col-6 p-0 h-100 r_tbdr">
-                            <div id="carouselExample" class="carousel slide">
+                            <div id="carouselExample" class="carousel slide r_mainslider">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="rounded-circle"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="rounded-circle"></button>
+                                </div>
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
                                     <img class="img-fluid" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_packersmovers.png?v=1.1" class="d-block w-100" alt="...">
@@ -486,11 +498,11 @@
                                     <img class="img-fluid" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_interiordesigners.png" class="d-block w-100" alt="...">
                                   </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <button class="carousel-control-prev r_ccp top-50" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <button class="carousel-control-next r_ccn top-50" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Next</span>
                                 </button>
@@ -505,6 +517,132 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="r_m22 d-none d-sm-block pt-4 pb-4 r_tbdr">
+                    <ul class="nav r_m22_icon">
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/1.svg" />
+                            <span class="d-block">Restaurants</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/2.svg" />
+                            <span class="d-block">Hotels</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/3.svg" />
+                            <span class="d-block">Real Estate</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/4.svg" />
+                            <span class="d-block">Home Decor</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/5.svg" />
+                            <span class="d-block">Education</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/6.svg" />
+                            <span class="d-block">Rent & Hire</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/7.svg" />
+                            <span class="d-block">Hospitals</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/8.svg" />
+                            <span class="d-block">Contractors</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/9.svg" />
+                            <span class="d-block">Pet Shops</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/10.svg" />
+                            <span class="d-block">PG/Hostels</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/11.svg" />
+                            <span class="d-block">Estate Agent</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/12.svg" />
+                            <span class="d-block">Dentists</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/13.svg" />
+                            <span class="d-block">GYM</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/14.svg" />
+                            <span class="d-block">Consultants</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/15.svg" />
+                            <span class="d-block">Event Organisers</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/16.svg" />
+                            <span class="d-block">Driving Schools</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/17.svg" />
+                            <span class="d-block">Packers & Movers</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/18.svg" />
+                            <span class="d-block">Courier Service</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/19.svg" />
+                            <span class="d-block">Travel</span>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-2 mb-4 d-flex justify-content-center">
+                          <a class="nav-link text-dark text-center" aria-current="page" href="#">
+                            <img class="img-fluid border p-2 rounded-4" src="./img/icons/20.png" />
+                            <span class="d-block">Popular Categories</span>
+                          </a>
+                        </li>
+                        
+                        
+                    </ul>
                 </div>
             </main>
             <footer class="r_tbdr bg-white">

@@ -9,10 +9,52 @@ body{
 
 header{
     min-height: 81px;
-    
+    z-index: 10000;
 }
-.m11{
+.r_ccp,.r_ccn{
+    visibility: visible;
+}
+.r_mainslider:hover{
+    cursor: pointer;
+}
+.r_mainslider .r_ccp,.r_mainslider .r_ccn{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    visibility: hidden;
+}
+.r_ccp{
+    left: 20px;
+}
+.r_ccn{
+    right: 20px;
+}
+.r_mainslider:hover .r_ccp,.r_mainslider:hover .r_ccn{
+    visibility: visible;
+    
+
+}
+.r_mainslider img{
     height: 275px;
+    width: 100%;
+}
+.carousel-indicators button{
+    width: 6px !important;
+    height: 6px !important;
+}
+.r_m11{
+    height: 275px;
+}
+ul.r_m22_icon > li > a:hover{
+    background-color: white;
+}
+ul.r_m22_icon > li > a > img{
+    width: 65px;
+    height: 65px;
+}
+ul.r_m22_icon > li > a:hover > img{
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.05);
 }
 ul > li > a:hover{
     background-color: #EDEDED;
