@@ -138,7 +138,43 @@ footer{
        opacity:0.5 !important;
  }
 
-
+ .r_animation{
+    animation-name: myanimation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-direction: alternate;
+ }
+ .r_xyz > img{
+    transform-origin: right bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.2s;
+ }
+ .r_xyz:hover > img{
+    transform: scale3d(1.1,1.1,1);
+ }
+ .r_xyz > span{
+    transform-origin: left bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.2s;
+ }
+ .r_xyz:hover > span{
+    transform: scale3d(1.1,1.1,1);
+ }
+@keyframes myanimation {
+    0%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(-42px);
+    }
+    100%{
+        transform: translateY(-42px);
+    }
+}
 
 @media screen and (max-width:576px){
     .r_form_col{
