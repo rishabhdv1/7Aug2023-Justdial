@@ -13,6 +13,9 @@
     </head>
     <body>
         <!-- Modal -->
+        <button class="btn bg-light rounded-circle r_scrollToTop position-fixed bottom-0 end-0" style="bottom: 36px !important;right:30px !important;">
+            <i class="fa-solid fa-chevron-up fa-lg"></i>
+        </button>
         <div class="modal hide" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
@@ -478,8 +481,8 @@
 
                 </div>
                 <div class="r_m10 d-none d-sm-block">
-                    <div class="row h-100">
-                        <div class="col-8 r_tbdr h-100">
+                    <div class="row m-0 h-100">
+                        <div class="col-8 p-0 r_tbdr h-100">
                             <div class="row m-0">
                                 <div class="col-3 p-0">
                                     <span class="fw-bold fs-3 text-dark">Search across</span>
@@ -493,21 +496,24 @@
                             </div>
                             <form>
                                 <div class="row m-0 r_tbdr">
-                                    <div class="col-4 r_tbdr">
-                                        <input type="text" class="form-control shadow-none border-dark pt-3 pb-3" placeholder="Rajeev Nagar, Neemuch">
+                                    <div class="col-4 p-0 r_tbdr">
+                                        <div class="p-2 d-flex flex-row align-items-center border rounded border-dark r_city_input">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <input type="text" class="form-control form-control-sm r_city_input r_city_input2 border-0 shadow-none" placeholder="Rajeev Nagar, Neemuch">
+                                        </div>
                                     </div>
-                                    <div class="col-8 r_tbdr">
-                                        <div class="row m-0 border border-dark rounded-4">
-                                            <div class="col-9">
-                                                <input type="text" class="form-control shadow-none border-dark pt-3 pb-3">
+                                    <div class="col-8 p-0 r_tbdr">
+                                        <div class="row m-0 border border-dark rounded-2">
+                                            <div class="col-9 p-0">
+                                                <input type="text" class="form-control shadow-none border-0 pt-3 pb-3" placeholder="Search for real estate agent" aria-label="last name">
                                             </div>
-                                            <div class="col-3">
-                                                <div class="d-flex flex-row mb-3">
-                                                    <div class="p-1">
-                                                        <img class="img-fluid" src="./img/icons/mic.svg" />
+                                            <div class="col-3 p-0">
+                                                <div class="d-flex flex-row">
+                                                    <div class="mt-2">
+                                                        <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/jd_mic_icon.svg" />
                                                     </div>
-                                                    <div class="mt-1">
-                                                        <button class="btn bg-danger">
+                                                    <div class="mt-2">
+                                                        <button class="btn r_orange">
                                                             <img src="./img/icons/search_white_icon.svg" />
                                                         </button>
                                                     </div>
@@ -531,8 +537,6 @@
                     </div>
                 </div>
                 <div class="r_m11 d-none d-sm-block">
-                    
-                    
                     <div class="row m-0 h-100">
                         <div class="col-6 p-0 h-100 r_tbdr">
                             <div id="carouselExample" class="carousel slide r_mainslider" data-bs-ride="carousel" >
@@ -570,20 +574,24 @@
                                         <img class="img-fluid position-absolute bottom-0 end-0" src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/b2b.png?v=1.01?w=1920&q=75" />
                                     </a>
                                 </div>
-                                <div class="col-3 r_tbdr h-100">
-                                    <div class="rounded-4" style="background-color: #2654A1;">
-                                        <img class="img-fluid" src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/xperts.png?v=1.0?w=1920&q=75" />
-                                    </div>
+
+                                <div class="col-3 p-0 r_tbdr h-100">
+                                    <a href="#" class="d-block text-decoration-none r_xyz rounded-4 position-relative h-100" style="background-color: #2654A1;">
+                                        <span class="d-block fw-bold fs-4 text-white">Xperts</span>
+                                        <img class="img-fluid position-absolute bottom-0 end-0" src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/xperts.png?v=1.0?w=1920&q=75" />
+                                    </a>
                                 </div>
-                                <div class="col-3 r_tbdr h-100">
-                                    <div class="rounded-4" style="background-color: #6769D0;">
-                                        <img class="img-fluid" src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/realestate.png?v=1.0?w=1920&q=75" />
-                                    </div>
+                                <div class="col-3 p-0 r_tbdr h-100">
+                                    <a href="#" class="d-block text-decoration-none r_xyz rounded-4 position-relative h-100" style="background-color: #6769D0;">
+                                        <span class="d-block fw-bold fs-4 text-white">Xperts</span>
+                                        <img class="img-fluid position-absolute bottom-0 end-0" src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/realestate.png?v=1.0?w=1920&q=75" />
+                                    </a>
                                 </div>
-                                <div class="col-3 r_tbdr h-100">
-                                    <div class="rounded-4" style="background-color: #00AC7D;">
-                                        <img class="img-fluid" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/web_doctor_image.png?v=1.0?w=1920&q=75" />
-                                    </div>
+                                <div class="col-3 p-0 r_tbdr h-100">
+                                    <a href="#" class="d-block text-decoration-none r_xyz rounded-4 position-relative h-100" style="background-color: #00AC7D;">
+                                        <span class="d-block fw-bold fs-4 text-white">DOCTORS</span>
+                                        <img class="img-fluid position-absolute bottom-0 end-0" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/web_doctor_image.png?v=1.0?w=1920&q=75" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -714,6 +722,22 @@
                         
                         
                     </ul>
+                </div>
+                <div class="row r_tbdr">
+                    <div class="col ">
+                        <div class="row r_tbdr">
+                            <div class="col">
+                                <figcaption class="">
+                                    <h5>Wedding Requisities</h5>
+                                    <img src="./img/flight_hmpg_banner_27feb.avif" />
+                                    <p>Banquet Halls</p>
+                                </figcaption>
+                            </div>
+                            <div class="col">2</div>
+                            <div class="col">3</div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
                 </div>
             </main>
             <footer class="r_tbdr bg-white">
