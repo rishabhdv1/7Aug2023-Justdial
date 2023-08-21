@@ -124,70 +124,77 @@ footer{
     font-weight:bold;
     color:#333 !important;
     opacity:0.5 !important;
- }
+}
  
- :-moz-placeholder { /* Firefox 18- */
+:-moz-placeholder { /* Firefox 18- */
        font-size: 25px;
        font-weight:bold;
        color:#333 !important;
        opacity:0.5 !important;
- }
+}
  
- ::-moz-placeholder {  /* Firefox 19+ */
+::-moz-placeholder {  /* Firefox 19+ */
        font-size: 25px;
        font-weight:bold;
        color:#333 !important;
        opacity:0.5 !important;
- }
+}
  
- /* Overriding styles */
+/* Overriding styles */
  
- ::-webkit-input-placeholder {
+::-webkit-input-placeholder {
     font-size: 15px!important;
     font-weight:bold;
     color:#333 !important;
     opacity:0.5 !important;
- }
+}
  
- :-moz-placeholder { /* Firefox 18- */
+:-moz-placeholder { /* Firefox 18- */
        font-size: 15px!important;
        font-weight:bold;
        color:#333 !important;
        opacity:0.5 !important;
- }
- ::-moz-placeholder {  /* Firefox 19+ */
+}
+::-moz-placeholder {  /* Firefox 19+ */
        font-size: 15px!important;
        font-weight:bold;
        color:#333 !important;
        opacity:0.5 !important;
- }
-
- .r_animation{
+}
+.r_search_form{
+    position: fixed;
+    top: 15px;
+    z-index: 10000;
+    left: 100px;
+    background: white;
+    transition: all linear 5s !important;
+}
+.r_animation{
     animation-name: myanimation;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-duration: 2s;
     animation-direction: alternate;
- }
- .r_xyz > img{
+}
+.r_xyz > img{
     transform-origin: right bottom;
     transform: scale3d(1,1,1);
     transition: all linear 0.2s;
- }
- .r_xyz:hover > img{
+}
+.r_xyz:hover > img{
     transform: scale3d(1.1,1.1,1);
- }
- .r_xyz > span{
+}
+.r_xyz > span{
     transform-origin: left bottom;
     transform: scale3d(1,1,1);
     transition: all linear 0.2s;
- }
- .r_xyz:hover > span{
+}
+.r_xyz:hover > span{
     transform: scale3d(1.1,1.1,1);
- }
- .r_orange{
+}
+.r_orange{
     background-color: orangered;
- }
+}
 @keyframes myanimation {
     0%{
         transform: translateY(0px);
@@ -204,6 +211,7 @@ footer{
 }
 
 @media screen and (max-width:576px){
+    
     .r_form_col{
         height: 50px;
     }
