@@ -9,6 +9,17 @@ body{
     backdrop-filter: blur(15px);
     z-index: 10000 !important;
 }
+.r_b2b{
+    /*
+    transform-origin: x-axis y-axis
+    */
+    transform-origin: left center ;
+    background: #0F7DD8 !important;
+    transform: scale(0.8,0.8);
+    transition: all linear .3s;
+    left: -48px !important;
+}
+
 .r_tbdr{
     border: 1px dashed red;
     
@@ -210,6 +221,16 @@ footer{
 }
 .r_xyz:hover > span{
     transform: scale3d(1.1,1.1,1);
+}
+.r_xyz:hover .r_b2b{
+    left: 0px !important;
+}
+.r_xyz:hover .r_b2b{
+    color: #0F7DD8 !important;
+    background: #fff !important;
+}
+.r_xyz:hover i{
+    color: #085799;
 }
 .r_orange{
     background-color: orangered;
