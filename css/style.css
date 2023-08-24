@@ -19,9 +19,22 @@ body{
     transition: all linear .3s;
     left: -48px !important;
 }
-
+.r_custom_smallest{
+    font-size: 12px;
+}
+.r_m55 img:hover{
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.03);
+}
+.r_m55 a:hover{
+    
+    background: transparent;
+}
+.r_blue{
+    color: #0076D7;
+}
 .r_tbdr{
-    border: 1px dashed red;
+    /*border: 1px dashed red*/
+    
     
 }
 
@@ -249,9 +262,17 @@ footer{
         transform: translateY(-42px);
     }
 }
-
+@media screen and (min-width:577px){
+    main{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
 @media screen and (max-width:576px){
-    
+    main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .r_form_col{
         height: 50px;
     }
