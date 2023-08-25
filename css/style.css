@@ -33,7 +33,7 @@ body{
     color: #0076D7;
 }
 .r_tbdr{
-    /*border: 1px dashed red*/
+    border: 1px dashed red
     
     
 }
@@ -133,6 +133,119 @@ footer{
     animation-timing-function:linear;
     animation-iteration-count:infinite;
     animation-direction: alternate;
+}
+.r_m_popular_brands{
+}
+.r_pop_slider{
+    height: 250px;
+}
+.r_pop_slider > ul{
+    width: 6800px;
+}
+.r_pop_slider a{
+    width: 431px;
+}
+.r_pop_lc{
+    z-index: 1000;
+}
+.r_pop_ul{
+    animation-name: pop_ul;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-direction: alternate;
+}
+@keyframes pop_ul{
+    0%{
+        transform: translateX(0px);
+    }
+    1%{
+        transform: translateX(-465px);
+    }
+    7%{
+        transform: translateX(-465px);
+    }
+    8%{
+        transform: translateX(-930px);
+    }
+    13%{
+        transform: translateX(-930px);
+    }
+    14%{
+        transform: translateX(-1395px);
+    }
+    20%{
+        transform: translateX(-1395px);
+    }
+    21%{
+        transform: translateX(-1860px);
+    }
+    27%{
+        transform: translateX(-1860px);
+    }
+    28%{
+        transform: translateX(-2325px);
+    }
+    34%{
+        transform: translateX(-2325px);
+    }
+    35%{
+        transform: translateX(-2790px);
+    }
+    41%{
+        transform: translateX(-2790px);
+    }
+    42%{
+        transform: translateX(-3255px);
+    }
+    49%{
+        transform: translateX(-3255px);
+    }
+    55%{
+        transform: translateX(-3720px);
+    }
+    56%{
+        transform: translateX(-4185px);
+    }
+    62%{
+        transform: translateX(4185px);
+    }
+    63%{
+        transform: translateX(-4650px);
+    }
+    69%{
+        transform: translateX(-4650px);
+    }
+    70%{
+        transform: translateX(-5115px);
+    }
+    76%{
+        transform: translateX(-5115px);
+    }
+    77%{
+        transform: translateX(-5580px);
+    }
+    78%{
+        transform: translateX(0px);
+    }
+    /* 83%{
+        transform: translateX(-5580px);
+    }
+    84%{
+        transform: translateX(-);
+    }
+    90%{
+        transform: translateX();
+    }
+    91%{
+        transform: translateX(-);
+    }
+    99%{
+        transform: translateX();
+    } */
+    100%{
+        transform: translateX(0px);
+    }
 }
 @keyframes stp {
     from{
