@@ -33,7 +33,7 @@ body{
     color: #0076D7;
 }
 .r_tbdr{
-    border: 1px dashed red
+    /* border: 1px dashed red */
     
     
 }
@@ -140,10 +140,10 @@ footer{
     height: 250px;
 }
 .r_pop_slider > ul{
-    width: 6800px;
+    width: 6075px;
 }
 .r_pop_slider a{
-    width: 431px;
+    width: 370px;
 }
 .r_pop_lc{
     z-index: 1000;
@@ -152,99 +152,109 @@ footer{
     animation-name: pop_ul;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-duration: 20s;
-    animation-direction: alternate;
+    animation-duration: 30s;
+    animation-direction: normal;
 }
 @keyframes pop_ul{
     0%{
         transform: translateX(0px);
     }
-    1%{
-        transform: translateX(-465px);
+    6%{
+        transform: translateX(-405px);
     }
     7%{
-        transform: translateX(-465px);
-    }
-    8%{
-        transform: translateX(-930px);
+        transform: translateX(-405px);
     }
     13%{
-        transform: translateX(-930px);
+        transform: translateX(-810px);
     }
     14%{
-        transform: translateX(-1395px);
+        transform: translateX(-810px);
     }
     20%{
-        transform: translateX(-1395px);
+        transform: translateX(-1215px);
     }
     21%{
-        transform: translateX(-1860px);
+        transform: translateX(-1215px);
     }
+
     27%{
-        transform: translateX(-1860px);
+        transform: translateX(-1620px);
     }
     28%{
-        transform: translateX(-2325px);
+        transform: translateX(-1620px);
     }
+
     34%{
-        transform: translateX(-2325px);
+        transform: translateX(-2025px);
     }
     35%{
-        transform: translateX(-2790px);
+        transform: translateX(-2025px);
     }
+
     41%{
-        transform: translateX(-2790px);
+        transform: translateX(-2430px);
     }
     42%{
-        transform: translateX(-3255px);
+        transform: translateX(-2430px);
+    }
+
+    48%{
+        transform: translateX(-2835px);
     }
     49%{
-        transform: translateX(-3255px);
+        transform: translateX(-2835px);
     }
+
     55%{
-        transform: translateX(-3720px);
+        transform: translateX(-3240px);
     }
     56%{
-        transform: translateX(-4185px);
+        transform: translateX(-3240px);
     }
+
     62%{
-        transform: translateX(4185px);
+        transform: translateX(-3645px);
     }
     63%{
-        transform: translateX(-4650px);
+        transform: translateX(-3645px);
     }
+
     69%{
-        transform: translateX(-4650px);
+        transform: translateX(-4050px);
     }
     70%{
-        transform: translateX(-5115px);
+        transform: translateX(-4050px);
     }
+    
     76%{
-        transform: translateX(-5115px);
+        transform: translateX(-4455px);
     }
     77%{
-        transform: translateX(-5580px);
+        transform: translateX(-4455px);
     }
-    78%{
-        transform: translateX(0px);
-    }
-    /* 83%{
-        transform: translateX(-5580px);
+    
+    
+    83%{
+        transform: translateX(-4860px);
     }
     84%{
-        transform: translateX(-);
+        transform: translateX(-4860px);
     }
     90%{
-        transform: translateX();
+        transform: translateX(-5265px);
     }
     91%{
-        transform: translateX(-);
+        transform: translateX(-5265px);
     }
-    99%{
-        transform: translateX();
-    } */
+    97%{
+        transform: translateX(-5670px);
+    }
+    98%{
+        transform: translateX(-5670px);
+    }
     100%{
-        transform: translateX(0px);
+        transform: translateX(-6000px);
     }
 }
 @keyframes stp {
